@@ -2,8 +2,8 @@
     dataset: &train !obj:adversarial.lfw.dataset.LFW {
         axes: ['c', 0, 1, 'b'],
         gcn: 55.,
-        lfw_path: '/afs/cs.stanford.edu/u/jgauthie/scr/lfw32/img',
-        filelist_path: '/afs/cs.stanford.edu/u/jgauthie/scr/lfw32/filelist.train.txt',
+        lfw_path: 'content/lfwcrop_color/faces',
+        filelist_path: 'adversarial/data/lfwcrop_color/filelist.train.txt',
         img_shape: [3, 32, 32]
         # which_set: 'train',
         # start: 0,
@@ -130,8 +130,8 @@
                 'valid' : !obj:adversarial.lfw.dataset.LFW {
                               axes: ['c', 0, 1, 'b'],
                               gcn: 55.,
-                              lfw_path: '/afs/cs.stanford.edu/u/jgauthie/scr/lfw32/img',
-                              filelist_path: '/afs/cs.stanford.edu/u/jgauthie/scr/lfw32/filelist.dev.txt',
+                              lfw_path: 'content/lfwcrop_color/faces',
+                              filelist_path: 'adversarial/data/lfwcrop_color/filelist.dev.txt',
                               img_shape: [3, 32, 32]
                               # which_set: 'train',
                               # start: 40000,
