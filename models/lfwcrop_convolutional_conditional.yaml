@@ -4,7 +4,7 @@
     gcn: 55.,
     lfw_path: 'content/lfwcrop_color/faces',
     filelist_path: '~/adversarial/data/lfwcrop_color/filelist.dev.ids.txt', #train.ids.txt',
-    embedding_file: '~/adverserial/data/lfwcrop_color/embeddings/LFW_attributes_30d.npz',
+    embedding_file: '~/adversarial/data/lfwcrop_color/embeddings/LFW_attributes_30d.npz',
      
     img_shape: [3, 32, 32],
     # which_set: 'train',
@@ -185,7 +185,7 @@
         gcn: 55,
         lfw_path: 'content/lfwcrop_color/faces',
         filelist_path: '~/adversarial/data/lfwcrop_color/filelist.dev.ids.txt',
-        embedding_file: '~/adverserial/data/lfwcrop_color/embeddings/LFW_attributes_30d.npz',
+        embedding_file: '~/adversarial/data/lfwcrop_color/embeddings/LFW_attributes_30d.npz',
         img_shape: [3, 32, 32],
         # which_set: 'train',
         start: 0,
